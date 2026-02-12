@@ -1,0 +1,19 @@
+---
+project_id: agent-commons
+project_name: Agent Commons - Post-Corporate Organizational Models
+version: "1.0"
+created: 2026-02-12T19:00:00Z
+orchestration:
+  enabled: true
+  global_state: ~/.claude/orchestration/projects/agent-commons/PROJECT.md
+  effort_tracking: true
+repository:
+  type: git
+  path: ~/PROJECT-Agent-Commons
+owner: Trent Peterson
+tags:
+  - personal
+  - ai-society
+  - organizational-models
+  - post-corporate
+  - exploration
