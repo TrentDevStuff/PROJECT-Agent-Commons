@@ -148,6 +148,44 @@ Before studying specific systems, we need to build a working catalog of the huma
 - Coase Question in the AI Age (transaction cost reduction, 1000x engineer, firm size shrinking)
 - 60+ academic sources cited
 
+### 1.5 Capitalism / Free Market Economics
+
+**The hedge:** The most sophisticated incentive alignment system ever designed. Price signals aggregate distributed information (solving Hayek's knowledge problem). Competition punishes inefficiency and rewards value creation. Profit motive channels self-interest into productive activity ("It is not from the benevolence of the butcher..."). Creative destruction enables renewal — failed firms die and resources flow to better uses. Private property creates skin-in-the-game accountability. Voluntary exchange means both parties benefit or the transaction doesn't happen.
+
+**What makes capitalism unique in this analysis:** Unlike democracy (political), socialism (ideological), or corporatism (organizational), capitalism is an *economic system* — a set of rules for coordinating production and distribution. It doesn't just hedge against human nature; it explicitly *harnesses* self-interest as its primary engine. Adam Smith's insight was that you don't need to change human nature — you need to channel it.
+
+**The cracks — where human nature breaks through:**
+
+- **Power-seeking → Monopoly and market concentration** — Competition is a hedge, but winners use their position to eliminate competition. Standard Oil, AT&T, Google, Amazon. The tendency toward monopoly is inherent in economies of scale and network effects
+- **Short-term bias → Quarterly capitalism** — Markets reward short-term returns. Stock buybacks over R&D. Environmental destruction for immediate profit. The discount rate is a mathematical encoding of short-term bias
+- **Rent-seeking → Crony capitalism** — The line between profit (value creation) and rent (value extraction) blurs. Lobbying, regulatory capture, patent abuse. Those with capital use it to rewrite the rules
+- **Information hoarding → Asymmetric information exploitation** — Markets assume informed participants. Reality: insider trading, predatory lending, information asymmetry in healthcare/finance/insurance. Akerlof's "Market for Lemons"
+- **Free-riding → Externalities** — Markets price private costs but not social costs. Pollution, climate change, public health. The tragedy of the commons at global scale. The most consequential crack in the entire system
+- **Tribalism → Winner-take-all inequality** — Markets amplify initial advantages (Matthew Effect). Wealth concentration creates hereditary privilege. Piketty's r > g. Social mobility declines as inequality rises
+- **Self-deception → "The market is always right"** — Market fundamentalism as ideology. The efficient market hypothesis as rationalization for outcomes that serve the powerful. Ignoring market failures as exceptions when they're structural
+
+**The compounding:** Market concentration → regulatory capture → rules favor incumbents → inequality grows → social mobility declines → talent misallocation → innovation concentrates in rent-seeking → system loses legitimacy → populist backlash
+
+**Research questions:**
+- What makes capitalism's hedges more durable than other systems? (Price signals have survived 300+ years. Why?)
+- Where do market corrections actually work vs. where do they systematically fail? (Externalities, public goods, information asymmetry, natural monopolies)
+- What role does the state play? Is capitalism a system or a system-plus-state-intervention hybrid?
+- How does AI change capitalism? (Algorithmic pricing, AI monopolies, zero-marginal-cost goods, attention markets)
+- Is inequality a bug or a feature? Does capitalism require inequality as incentive, and if so, how much?
+
+**Key sources to find:** Adam Smith's "Wealth of Nations", Hayek's "The Road to Serfdom", Piketty's "Capital in the 21st Century", Acemoglu/Robinson's "Why Nations Fail", Stiglitz on market failures, Polanyi's "The Great Transformation", Friedman's "Capitalism and Freedom", Mazzucato's "The Entrepreneurial State"
+
+**COMPLETED:** See [[CAPITALISM]] for the full research document covering:
+- 8 hedges analyzed (price signals, competition, profit motive, creative destruction, private property, voluntary exchange, capital markets, rule of law)
+- 9 cracks with empirical data (monopoly/concentration, quarterly capitalism, crony capitalism, information asymmetry, externalities, inequality, market fundamentalism, financialization, labor commodification)
+- Compounding cycle with two historical case studies (Gilded Age -> New Deal; Neoliberalism -> 2008 -> populism)
+- 2008 financial crisis as detailed compounding failure case study
+- Honest credit: what capitalism gets right (information processing, incentive alignment, renewal, empirical track record)
+- State-market hybrid analysis: varieties of capitalism (Hall/Soskice), Nordic model, Polanyi double movement
+- AI and capitalism: zero-marginal-cost challenge, AI monopolies, algorithmic collusion, labor displacement, open-source as countermeasure
+- Agent Commons implications: harness self-interest, QF for public goods, forking as competition, externality pricing, bounded inequality
+- 45+ academic sources cited
+
 ### 1.4 Alternative Models (Historical)
 
 **Question:** What hedges did alternative models try, and which human-nature cracks did they fail to patch?
