@@ -2,13 +2,13 @@
 type: effort
 project: agent-commons
 effort_id: EFFORT-Unsolved-Problems
-status: not_started
+status: in_progress
 priority: critical
 created: 2026-02-13T18:00:00Z
-updated: 2026-02-13T18:00:00Z
+updated: 2026-02-13T20:30:00Z
 linked_goal: G12.3
 owner: Trent Peterson
-progress: 0%
+progress: 80%
 depends_on: EFFORT-Brainstorming-Research
 blocks: EFFORT-System-Design
 ---
@@ -58,7 +58,7 @@ The research surfaces these problems from multiple documents. Here they are cons
 - **P10 — Impossibility Trade-off Selection:** Arrow, Gibbard-Satterthwaite, and Myerson-Satterthwaite mathematically prove that no governance system satisfies all desirable properties simultaneously. The system MUST choose which properties to sacrifice. This choice is political, not technical — and no framework exists for making it in an AI-governed context.
 
 **Research areas:**
-- [ ] **1.1 Existing AI Governance Models**
+- [x] **1.1 Existing AI Governance Models**
   - Anthropic's Constitutional AI — how it works, what it constrains, what it can't do
   - OpenAI's governance structure and its 2023-2024 crisis (board vs. Altman)
   - EU AI Act governance requirements
@@ -66,7 +66,7 @@ The research surfaces these problems from multiple documents. Here they are cons
   - What do "AI ethics boards" actually do? Track record of corporate AI governance
   - Academic proposals: Dafoe et al. on cooperative AI, Russell on beneficial AI
 
-- [ ] **1.2 Plural AI Architecture**
+- [x] **1.2 Plural AI Architecture**
   - Can multiple AI systems with different training genuinely check each other?
   - What happens when AI systems disagree? Who breaks the tie?
   - Adversarial ML research — can adversarial dynamics be productive rather than destructive?
@@ -74,21 +74,21 @@ The research surfaces these problems from multiple documents. Here they are cons
   - Red-teaming as governance: continuous adversarial testing of governance AI
   - Blockchain oracle problem parallel — multiple independent data sources for consensus
 
-- [ ] **1.3 Human-AI Governance Hybrids**
+- [x] **1.3 Human-AI Governance Hybrids**
   - Optimism's bicameral model (Token House + Citizens' House) — can this extend to AI + Human chambers?
   - Jury models: AI proposes, human jury disposes (like grand jury / petit jury split)
   - Escalation ladders: AI handles routine, humans handle contested, constitution handles fundamental
   - Swiss direct democracy model — citizens can challenge any AI decision via referendum
   - What's the right ratio? Which decisions need human judgment vs. AI efficiency?
 
-- [ ] **1.4 Legitimacy Research**
+- [x] **1.4 Legitimacy Research**
   - Public opinion research on AI decision-making (healthcare, criminal justice, hiring — what's transferable?)
   - Procedural justice research (Tyler) — perceived fairness depends more on process than outcome
   - Transparency vs. explainability vs. contestability — which matters most for legitimacy?
   - What makes people accept algorithmic decisions they disagree with?
   - Religious/cultural dimensions of AI governance acceptance across societies
 
-- [ ] **1.5 The Impossibility Trade-off Framework**
+- [x] **1.5 The Impossibility Trade-off Framework**
   - Map Arrow's impossibility to specific Agent Commons governance decisions
   - Which properties does each existing system sacrifice? (Democracy sacrifices efficiency. Corporations sacrifice non-dictatorship. DAOs sacrifice participation.)
   - What should the commons sacrifice? Propose 2-3 concrete trade-off configurations
@@ -112,7 +112,7 @@ The research surfaces these problems from multiple documents. Here they are cons
 - **P6 — Power-Law / Concentration Bounding:** Preferential attachment produces concentration regardless of design. Piketty's r > g shows even bounded inequality compounds. Every empirical system studied developed extreme concentration. Need mathematical conditions for bounding below governance-capture threshold.
 
 **Research areas:**
-- [ ] **2.1 Sybil Resistance: State of the Art**
+- [x] **2.1 Sybil Resistance: State of the Art**
   - Worldcoin / World ID — biometric iris scanning, privacy concerns, adoption data
   - Proof of Humanity — vouching chain, strengths and vulnerabilities
   - BrightID — social graph verification, Sybil detection algorithms
@@ -122,7 +122,7 @@ The research surfaces these problems from multiple documents. Here they are cons
   - Web-of-trust models (PGP lineage) — scaling limitations and modern variants
   - Emerging research: decentralized identity (DID), verifiable credentials (W3C standard)
 
-- [ ] **2.2 Non-Code Contribution Tracking**
+- [x] **2.2 Non-Code Contribution Tracking**
   - What do existing platforms track? (Figma activity, Notion edits, Slack engagement, meeting participation)
   - Peer evaluation systems — 360-degree review research, accuracy, gaming
   - Outcome-based attribution — attributing value based on project success rather than activity
@@ -131,7 +131,7 @@ The research surfaces these problems from multiple documents. Here they are cons
   - Shapley value estimation for team contributions — computational approaches
   - Buurtzorg, Morning Star — how do successful self-managing orgs handle non-code attribution?
 
-- [ ] **2.3 Price-Signal Mechanisms for a Commons**
+- [x] **2.3 Price-Signal Mechanisms for a Commons**
   - Quadratic funding as a pricing mechanism for public goods — Gitcoin's $60M+ experiment, what the data shows about information aggregation quality
   - Prediction markets as value signals — can prediction markets estimate the value of contributions?
   - Internal markets / organizational markets — Hewlett-Packard's internal prediction markets, Google's internal resource allocation
@@ -140,7 +140,7 @@ The research surfaces these problems from multiple documents. Here they are cons
   - Harberger taxes as a commons pricing mechanism — Weyl/Posner's proposal
   - Can AI create synthetic price signals from multi-dimensional data?
 
-- [ ] **2.4 Concentration Bounding**
+- [x] **2.4 Concentration Bounding**
   - Mathematical models of preferential attachment with countermeasures (time-decay, caps, quadratic weighting)
   - Empirical concentration data from open-source (contributor distribution), DAOs (token distribution), Stack Overflow (reputation distribution)
   - What concentration level enables governance capture? Is there a quantifiable threshold?
@@ -149,7 +149,7 @@ The research surfaces these problems from multiple documents. Here they are cons
   - Redistribution mechanisms: reputation taxation, universal basic reputation, periodic resets
   - Historical precedents: antitrust, progressive taxation, land reform — what worked?
 
-- [ ] **2.5 Reputation Gaming Resistance**
+- [x] **2.5 Reputation Gaming Resistance**
   - Documented gaming strategies for every major reputation system (eBay, Stack Overflow, Uber, Amazon, academic citations)
   - AI-assisted gaming: LLM-generated fake contributions, automated Sybil creation
   - Multi-signal systems — does combining signals increase gaming resistance or just increase attack surface?
@@ -172,7 +172,7 @@ The research surfaces these problems from multiple documents. Here they are cons
 - **P12 — Internal Competition vs. Fragmentation:** Capitalism's most powerful anti-decay mechanism is competition, but monopoly is the rational endgame. How to preserve competitive discipline via forking without fragmenting the commons into nonviable pieces?
 
 **Research areas:**
-- [ ] **3.1 Cold-Start Strategies That Actually Worked**
+- [x] **3.1 Cold-Start Strategies That Actually Worked**
   - Platform cold-start research (Chen/Terwiesch, Evans/Schmalensee) — successful strategies by platform type
   - Stocksy's bootstrap (leveraged iStockphoto founder's community and credibility)
   - Wikipedia's bootstrap (leveraged Nupedia's content + volunteer ethos + zero-cost participation)
@@ -182,7 +182,7 @@ The research surfaces these problems from multiple documents. Here they are cons
   - Can AI itself provide the cold-start advantage? (AI-native capabilities that traditional platforms can't offer)
   - Community-first vs. product-first vs. capital-first strategies
 
-- [ ] **3.2 Commons Revenue Models**
+- [x] **3.2 Commons Revenue Models**
   - Open-source revenue models ranked by sustainability: consulting (Red Hat $3.4B), open-core (MongoDB $20B+), SaaS (GitHub $200M ARR), sponsorship (Wikipedia $150M/yr), marketplace fees (Apple 30%, Shopify 2.9%), certification/training
   - What's the actual cost structure for an AI-governed commons? (AI compute, infrastructure, dispute resolution, development, legal)
   - The take rate question: where's the Laffer curve for commons fees? Too low = unsustainable, too high = extractive
@@ -191,7 +191,7 @@ The research surfaces these problems from multiple documents. Here they are cons
   - Protocol revenue: Ethereum's model ($2B+ annual fees for protocol operation)
   - Public goods funding mechanisms (QF matching pools, retroactive funding, grants)
 
-- [ ] **3.3 Competing with VC-Funded Platforms**
+- [x] **3.3 Competing with VC-Funded Platforms**
   - What structural advantages does a commons have that a VC platform cannot replicate?
   - Trust and alignment as competitive moat (users prefer non-extractive platforms when quality is comparable)
   - Network effects: can the commons build defensible network effects?
@@ -200,7 +200,7 @@ The research surfaces these problems from multiple documents. Here they are cons
   - Can regulatory arbitrage help? (EU Digital Markets Act, antitrust actions creating space)
   - What if the commons doesn't need to beat platforms, but to be the infrastructure platforms are built on?
 
-- [ ] **3.4 Internal Competition Design**
+- [x] **3.4 Internal Competition Design**
   - Fork dynamics in open source — when do forks help vs. harm the ecosystem?
   - Market design for internal competition — can multiple Forgs compete on the same project without fragmentation?
   - Tournament models (Netflix Prize, Kaggle competitions) — do they produce better outcomes?
@@ -224,7 +224,7 @@ The research surfaces these problems from multiple documents. Here they are cons
 - **P11 — Purpose Decay Across Generations:** Kibbutzim lost purpose in the second generation. Mondragon's cooperative culture has weakened. Open-source suffers maintainer burnout. No system has maintained intrinsic motivation across generations without institutional renewal.
 
 **Research areas:**
-- [ ] **4.1 Legal Structures for AI-Governed Organizations**
+- [x] **4.1 Legal Structures for AI-Governed Organizations**
   - Wyoming DAO LLC (2021) — what it covers, what it doesn't, precedent cases
   - Marshall Islands DAO Act — broader scope, practical adoption
   - Vermont Blockchain-Based LLC — earlier approach, lessons
@@ -237,7 +237,7 @@ The research surfaces these problems from multiple documents. Here they are cons
   - AI governance liability: who is responsible when AI governance makes a bad decision?
   - Cross-jurisdictional complexity: can a commons have a single legal home?
 
-- [ ] **4.2 Purpose & Meaning in a Post-AI-Production World**
+- [x] **4.2 Purpose & Meaning in a Post-AI-Production World**
   - Jahoda's latent deprivation theory — the 5 non-financial functions of work (time structure, social contact, collective purpose, status/identity, regular activity)
   - Frankl's logotherapy — meaning through creative values, experiential values, attitudinal values
   - Csikszentmihalyi's flow research — conditions for intrinsic motivation in work
@@ -247,7 +247,7 @@ The research surfaces these problems from multiple documents. Here they are cons
   - The "experience economy" (Pine/Gilmore) — does AI push economic value toward experiences and transformation?
   - What work is meaningful when AI can do everything? Curation, judgment, teaching, care, creation, governance
 
-- [ ] **4.3 Sustaining Purpose Across Generations**
+- [x] **4.3 Sustaining Purpose Across Generations**
   - Why did kibbutz purpose fade? (Abramitzky's data: second generation didn't choose the ideology)
   - Why did Mondragon's cooperative culture weaken? (Globalization pressure, generational shift, scale)
   - Why does open-source suffer burnout? (Sustainability crisis, emotional labor, entitlement culture)
@@ -302,6 +302,12 @@ The following conditions from [[CROSS-AREA-SYNTHESIS]] 6.3 should be actively mo
 - **Blocks:** [[EFFORT-System-Design]] (not_started) — system design cannot proceed without approaches to these problems
 
 ## Progress Log
+
+### 2026-02-13: All 4 Research Threads Completed
+- **Thread 1 — AI Governance** (793 lines, 82 sources): Proposed three-chamber governance architecture (AI Engine + Sortition Assembly + Community Referendum + Codex). P1 manageable (circular mutual constraint), P7 achievable (procedural justice), P10 mathematically inevitable but designable (layer-specific trade-offs). No dealbreakers. Falsification condition #3 NOT triggered.
+- **Thread 2 — Identity & Reputation** (802 lines, 130+ sources): Concrete Sybil resistance for pilot (trusted onboarding + composable stamps + time-weighted contribution). Team-outcome attribution for non-code. Five-mechanism price-signal hybrid. Five-mechanism concentration bounding stack. Falsification condition #4 partially supported but not conclusive — bounding requires continuous active intervention.
+- **Thread 3 — Economics & Sustainability** (801 lines, 48 research queries): 24-month pilot economic plan with sensitivity analysis. 8% take rate recommended floor. "Come for the AI tool, stay for the commons" cold-start strategy. Position as protocol/infrastructure layer, not competing platform. Fork threat more valuable as governance mechanism than actual forking. Falsification condition #5 NOT triggered.
+- **Thread 4 — Legal & Social** (803 lines, 80+ sources): Colorado LCA recommended as legal structure with four membership classes. Five-Function Replacement Framework for meaning. Six purpose-renewal mechanisms (generational constitutional convention, progressive initiation, governance rotation, ritual/narrative, education obligations, productive exit). P11 sets realistic ceiling at 40-60 years. No dealbreakers.
 
 ### 2026-02-13: Effort Created
 - Consolidated 12 unsolved problems from 17 research documents and 5 project files
