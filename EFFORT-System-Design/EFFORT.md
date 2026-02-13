@@ -2,14 +2,16 @@
 type: effort
 project: agent-commons
 effort_id: EFFORT-System-Design
-status: not_started
+status: blocked
 priority: high
 created: 2026-02-13T04:00:00Z
-updated: 2026-02-13T04:00:00Z
+updated: 2026-02-13T18:30:00Z
 linked_goal: G12.3
 owner: Trent Peterson
 progress: 0%
-depends_on: EFFORT-Brainstorming-Research
+depends_on:
+  - EFFORT-Brainstorming-Research
+  - EFFORT-Unsolved-Problems
 ---
 
 # EFFORT: System Design — Human-Nature-Proof, LLM-Orchestrated Organization
