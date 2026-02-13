@@ -2,10 +2,10 @@
 type: effort
 project: agent-commons
 effort_id: EFFORT-System-Design
-status: blocked
+status: not_started
 priority: high
 created: 2026-02-13T04:00:00Z
-updated: 2026-02-13T18:30:00Z
+updated: 2026-02-13T21:00:00Z
 linked_goal: G12.3
 owner: Trent Peterson
 progress: 0%

@@ -2,13 +2,13 @@
 type: effort
 project: agent-commons
 effort_id: EFFORT-Unsolved-Problems
-status: in_progress
+status: completed
 priority: critical
 created: 2026-02-13T18:00:00Z
-updated: 2026-02-13T20:30:00Z
+updated: 2026-02-13T21:00:00Z
 linked_goal: G12.3
 owner: Trent Peterson
-progress: 80%
+progress: 100%
 depends_on: EFFORT-Brainstorming-Research
 blocks: EFFORT-System-Design
 ---
@@ -289,12 +289,12 @@ The following conditions from [[CROSS-AREA-SYNTHESIS]] 6.3 should be actively mo
 
 ## Success Criteria
 
-- [ ] Each of the 12 problems has a research document with current state-of-the-art, candidate solutions, and honest assessment
-- [ ] Blocking problems (P1, P2, P3, P6, P7, P10) have at least one viable approach — even if imperfect — that could work for a 50-200 person pilot
-- [ ] For each problem, the "can this be solved?" question is answered honestly
-- [ ] At least one problem is identified as a potential dealbreaker with conditions under which the project should be abandoned or pivoted
-- [ ] The research produces concrete inputs for EFFORT-System-Design — not just "more research needed" but specific mechanism recommendations
-- [ ] Falsification conditions are actively evaluated against new evidence
+- [x] Each of the 12 problems has a research document with current state-of-the-art, candidate solutions, and honest assessment
+- [x] Blocking problems (P1, P2, P3, P6, P7, P10) have at least one viable approach — even if imperfect — that could work for a 50-200 person pilot
+- [x] For each problem, the "can this be solved?" question is answered honestly
+- [x] At least one problem is identified as a potential dealbreaker with conditions under which the project should be abandoned or pivoted (P5, P6 identified as potential dealbreakers with specific trigger conditions)
+- [x] The research produces concrete inputs for EFFORT-System-Design — not just "more research needed" but specific mechanism recommendations
+- [x] Falsification conditions are actively evaluated against new evidence (Condition #4 partially triggered, others not triggered)
 
 ## Dependencies
 
